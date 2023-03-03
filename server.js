@@ -8,9 +8,9 @@ require('dotenv').config();
 // Express.js server
 const express = require('express');
 // All routes as defined in the controllers folder
-const routes = require('/Users/mariamabah/Desktop/Model-View-Controller-14/controllers');
+const routes = require('./controllers');
 // Sequelize connection to the database
-const sequelize = require('/Users/mariamabah/Desktop/Model-View-Controller-14/config/connection.js');
+const sequelize = require('./config/connection');
 // Handlebars template engine for front-end
 const exphbs = require('express-handlebars')
 // Express session to handle session cookies
