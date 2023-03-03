@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const sequelize = require('/Users/mariamabah/Desktop/Model-View-Controller-14/config/connection.js');
+const sequelize = require('../config/connection');
 const { Post, User, Comment } = require('../models');
 
 // Render the home page

@@ -4,7 +4,7 @@
 // Server connection
 const router = require('express').Router();
 // API routes folder
-const apiRoutes = require('/Users/mariamabah/Desktop/Model-View-Controller-14/controllers/api');
+const apiRoutes = require('./api/index')
 // Homepage routes
 const homeRoutes = require('./home-routes.js');
 // Dashboard Routes
